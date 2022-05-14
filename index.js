@@ -21,7 +21,7 @@ const shop = new Background({
 });
 
 const dhc = new Person({
-	position: { x: 0, y: 0 },
+	position: { x: 300, y: 339 },
 	velocity: { x: 0, y: 0 },
 	offset: { x: 0, y: 0 },
 	imageSrc: "./assets/dhc/Idle.png",
@@ -68,7 +68,7 @@ const dhc = new Person({
 dhc.render();
 
 const ahnaf = new Person({
-	position: { x: 400, y: 100 },
+	position: { x: 650, y: 339 },
 	velocity: { x: 0, y: 0 },
 	color: "blue",
 	offset: { x: -50, y: 0 },
